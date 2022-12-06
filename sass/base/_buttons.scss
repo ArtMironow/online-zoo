@@ -1,0 +1,18 @@
+.button {
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 140%, $weight: 500, $size: 16px);
+    text-transform: uppercase;
+    padding: 16px 5px 16px 1px;
+    cursor: pointer;
+    color: $color-light;
+    text-align: center;
+}
+
+
+.button_colored { 
+    border: none;
+    width: 298px;
+    height: 54px;
+    background: $color-button-default;
+    border-radius: 25px;
+}

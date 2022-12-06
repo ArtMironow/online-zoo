@@ -1,0 +1,32 @@
+.images {
+    height: 1006px;
+}
+
+.images__list {
+    display: grid;
+    grid-template-columns: repeat(3, 366px);
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.image__animal {
+    display: flex;
+    flex-direction: column;
+    background: 
+    linear-gradient(#FFFFFF 0 0) padding-box, 
+    linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%) border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    .image__picture {
+        border-radius: 5px;
+        overflow: hidden;
+    }
+}
+
+.text__animal {
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 140%, $weight: 500, $size: 16px);
+    text-transform: uppercase;
+}

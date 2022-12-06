@@ -1,0 +1,58 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    max-width: $content-width;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 80%, $size: 114px);
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 120%, $weight: 400, $size: 48px);
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 130%, $weight: 400, $size: 36px);
+}
+
+subtitle {
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 120%, $weight: 400, $size: 24px);
+}
+
+small {
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 120%, $weight: 300, $size: 15px);
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 140%, $weight: 500, $size: 16px);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 140%, $weight: 500, $size: 16px);
+    color: $color-light;
+    text-decoration: none;
+}

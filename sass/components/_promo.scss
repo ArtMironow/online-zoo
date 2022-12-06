@@ -1,0 +1,46 @@
+.promo {
+    background-image: url(../img/background/Giantpanda.png);
+    background-repeat: no-repeat; 
+    background-position: center top;
+    background-size: auto auto;
+    background-attachment: fixed; 
+}
+
+.promo__wrapper {
+    //height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.promo__content {
+    position: absolute;
+    width: 500px;
+    margin: 86px 220px 214px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 75%, $size: 106px);
+}
+
+.ellipse {
+    position: unset;
+    width: 465px;
+    height: 465px;
+    margin: 12px 328px 223px 807px;
+    background-image: url(/img/background/Ellipse.svg);
+}
+
+.white__text {
+    color: $color-light;
+}
+
+.yellow__text {
+    color: $color-yellow;
+}
+
+.promo__button{
+    position: absolute;
+    margin: 626px 320px 100px 0;
+}

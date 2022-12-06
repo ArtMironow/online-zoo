@@ -1,0 +1,56 @@
+.info__site {
+    height: 723px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info__backstage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.info__backstage__title {
+    width: 465px;
+    height: 116px;
+    padding: 140px 220px 20px 0;
+}
+
+.info__backstage__text {
+    width: 465px;
+    height: 42px;
+    padding: 0 220px 54px 0;
+}
+
+.info__goal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.info__goal__title {
+    width: 217px;
+    height: 29px;
+    padding: 0 468px 34px 0;
+}
+
+.info__goal__text {
+    width: 465px;
+    height: 105px;
+    padding: 0 220px 183px;
+}
+
+.bamboo__cap {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    margin: 140px 87px 180px 219px;
+}
+
+.flower__photo1 {
+    position: absolute;
+    background-image: url(/img/background/flower_foto1.png);
+    width: 204px;
+    height: 613px;
+    margin: 0 0 0 1396px;
+}

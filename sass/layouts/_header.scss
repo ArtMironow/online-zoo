@@ -1,0 +1,64 @@
+.header {
+    background: $color-dark;
+    backdrop-filter: blur(2px);
+}
+
+.header__wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a:hover {
+        //color: $color-hover;
+        cursor: pointer;
+        filter: invert(48%) sepia(84%) saturate(1486%) hue-rotate(359deg) brightness(92%) contrast(95%);
+    }
+}
+
+.header__navigation {
+    margin: 0 0 0 220px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    position: relative;
+	overflow: hidden;
+    padding-right: 34px;
+    #rectangle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 82px;
+        height: 52px;
+        border: 1px solid $color-light;
+        border-radius: 2px;
+   }
+}
+
+.bamboo__img {
+    position: absolute;
+    width: 11px;
+    height: 21px;
+    left: 14px;
+    top: 23.5px;
+    background-image: url(/img/background/bamboo.svg);
+}
+
+.navigation {
+    display: flex;    
+}
+
+.navigation__link {  
+    list-style: none;
+    padding: 29px;
+    color: $color-light;
+}
+
+.designed__by {
+    margin: 0 220px 0 0;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    @include font($height: 140%, $weight: 500, $size: 16px);
+    color: $color-light;  
+}
